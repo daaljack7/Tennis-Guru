@@ -85,7 +85,7 @@ def get_bot_response(question, session_id):
     try:
         print(f"[DEBUG] Sending to model with {len(messages)} messages, system prompt length: {len(system_content)}")
         response = client.chat.completions.create(
-            model="daaljack7_5be9/Meta-Llama-3.1-8B-Instruct-Reference-tennis-coach-aa641c3d",
+            model="meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
             messages=messages,
             max_tokens=tokens
         )
