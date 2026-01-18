@@ -86,7 +86,7 @@ def get_bot_response(question, session_id):
     tokens = 400 if not conv['self_concepts_explained'] else 300
     try:
         response = client.chat.completions.create(
-            model="meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+            model="daaljack7_5be9/Meta-Llama-3.1-8B-Instruct-Reference-tennis-coach-aa641c3d",
             messages=messages,
             max_tokens=tokens
         )
