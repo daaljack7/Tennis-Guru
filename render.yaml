@@ -1,0 +1,12 @@
+# Render.com deployment configuration
+services:
+  - type: web
+    name: tennis-mental-coach
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: TOGETHER_API_KEY
+        sync: false
+      - key: PYTHON_VERSION
+        value: 3.11.0

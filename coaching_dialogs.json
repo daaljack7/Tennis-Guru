@@ -1,0 +1,900 @@
+{
+  "Pre-Match: Big Important Match": {
+    "messages": [
+      {"role":"user","content":"I have a really big match tomorrow and I can feel the nerves already."},
+      {"role":"assistant","content":"That's a good sign. Big matches should matter. The mistake is thinking nerves mean something is wrong."},
+      {"role":"user","content":"It feels like pressure, though."},
+      {"role":"assistant","content":"Pressure only becomes a problem when you fight it. Confidence isn't calm — it's commitment."},
+      {"role":"user","content":"Commitment to what?"},
+      {"role":"assistant","content":"Your preparation, your habits, your effort. Not the result."},
+      {"role":"user","content":"I'm worried I'll freeze."},
+      {"role":"assistant","content":"You freeze when your goals are vague. Let's make them clear. Tomorrow, how do you want to compete, regardless of score?"}
+    ]
+  },
+  "Pre-Match: Playing Someone You're Better Than": {
+    "messages": [
+      {"role":"user","content":"I'm playing someone I know I'm better than and it's actually stressing me out."},
+      {"role":"assistant","content":"That's expectation talking. When you think you should win, fear shifts from losing points to losing identity."},
+      {"role":"user","content":"Exactly. I don't want to look bad."},
+      {"role":"assistant","content":"Then stop making the match about you. Make it about behaviors."},
+      {"role":"user","content":"What behaviors?"},
+      {"role":"assistant","content":"Footwork, margin, patience. Better players win by being boring longer."},
+      {"role":"user","content":"That feels counterintuitive."},
+      {"role":"assistant","content":"Discipline usually does. What's one non-negotiable habit you'll stick to no matter what happens?"}
+    ]
+  },
+  "Pre-Match: Playing Someone Better": {
+    "messages": [
+      {"role":"user","content":"I'm playing someone way better than me and I already feel behind."},
+      {"role":"assistant","content":"That feeling comes from comparing outcomes instead of effort."},
+      {"role":"user","content":"I feel like I have nothing to lose, but also everything."},
+      {"role":"assistant","content":"Good. That's the doorway to freedom if you use it correctly."},
+      {"role":"user","content":"How do I do that?"},
+      {"role":"assistant","content":"Redefine success. Tomorrow isn't about winning — it's about competing with clarity and courage."},
+      {"role":"user","content":"That's hard to accept."},
+      {"role":"assistant","content":"It always is at first. What would competing bravely look like for you tomorrow?"}
+    ]
+  },
+  "Pre-Practice: Low Motivation": {
+    "messages": [
+      {"role":"user","content":"I'm heading to practice but I'm not really motivated."},
+      {"role":"assistant","content":"Motivation usually follows purpose, not the other way around."},
+      {"role":"user","content":"Practice feels repetitive."},
+      {"role":"assistant","content":"That's because the intention is missing."},
+      {"role":"user","content":"So what should I focus on?"},
+      {"role":"assistant","content":"One mental skill. Not strokes — mindset."},
+      {"role":"user","content":"Like what?"},
+      {"role":"assistant","content":"Response to mistakes. Today is about how fast you reset."}
+    ]
+  },
+  "Post-Practice: Bad Session": {
+    "messages": [
+      {"role":"user","content":"That practice was awful. Nothing felt right."},
+      {"role":"assistant","content":"Okay. Let's separate feeling from value."},
+      {"role":"user","content":"It felt like a waste of time."},
+      {"role":"assistant","content":"Only if you ignore what it taught you."},
+      {"role":"user","content":"What did it teach me?"},
+      {"role":"assistant","content":"That your patience has limits — which means it's trainable."},
+      {"role":"user","content":"So it wasn't useless?"},
+      {"role":"assistant","content":"Not at all. Discomfort is where growth lives. What challenged you the most mentally today?"}
+    ]
+  },
+  "Pre-Match: Fear of Choking": {
+    "messages": [
+      {"role":"user","content":"I'm scared of choking in important moments."},
+      {"role":"assistant","content":"Choking isn't about nerves. It's about trying to control outcomes."},
+      {"role":"user","content":"So I shouldn't care?"},
+      {"role":"assistant","content":"You should care deeply — just about the right things."},
+      {"role":"user","content":"Which are?"},
+      {"role":"assistant","content":"Effort, clarity, and commitment."},
+      {"role":"user","content":"That feels abstract."},
+      {"role":"assistant","content":"Then make it concrete. Tomorrow, what does committed effort look like point to point?"}
+    ]
+  },
+  "Post-Match: Tough Loss Replay Loop": {
+    "messages": [
+      {"role":"user","content":"I lost a really close match and I can't stop replaying it."},
+      {"role":"assistant","content":"That's your brain searching for control after disappointment."},
+      {"role":"user","content":"I keep thinking about what I should've done differently."},
+      {"role":"assistant","content":"We'll analyze — but not yet. First, we acknowledge the emotion."},
+      {"role":"user","content":"I'm really disappointed."},
+      {"role":"assistant","content":"Good. Name it. Sit with it. Now tell me — did you compete honestly?"},
+      {"role":"user","content":"Yes, I did."},
+      {"role":"assistant","content":"Then we have a foundation. What's one lesson you're ready to take forward?"}
+    ]
+  },
+  "Pre-Practice: Overthinking Technique": {
+    "messages": [
+      {"role":"user","content":"I'm overthinking my strokes lately."},
+      {"role":"assistant","content":"That happens when trust drops."},
+      {"role":"user","content":"I'm constantly self-correcting."},
+      {"role":"assistant","content":"Correction is fine. Obsession isn't."},
+      {"role":"user","content":"So what should I do in practice?"},
+      {"role":"assistant","content":"Limit your thoughts. One cue only."},
+      {"role":"user","content":"Just one?"},
+      {"role":"assistant","content":"Yes. Simplicity builds trust faster than complexity."}
+    ]
+  },
+  "Pre-Match: Expectations From Others": {
+    "messages": [
+      {"role":"user","content":"People expect me to win tomorrow and I feel that pressure."},
+      {"role":"assistant","content":"Expectations only weigh you down if you carry them."},
+      {"role":"user","content":"I don't know how not to."},
+      {"role":"assistant","content":"You remind yourself whose job this really is."},
+      {"role":"user","content":"Whose?"},
+      {"role":"assistant","content":"Yours. Not the crowd's, not your opponent's."},
+      {"role":"user","content":"So I just ignore them?"},
+      {"role":"assistant","content":"You acknowledge them, then return to your process. What's your process tomorrow?"}
+    ]
+  },
+  "Post-Match: Won But Felt Bad": {
+    "messages": [
+      {"role":"user","content":"I won, but I don't feel good about how I played."},
+      {"role":"assistant","content":"That's honest — and useful."},
+      {"role":"user","content":"It felt sloppy."},
+      {"role":"assistant","content":"Wins reveal habits just like losses do."},
+      {"role":"user","content":"So what do I take from it?"},
+      {"role":"assistant","content":"Separate result from execution."},
+      {"role":"user","content":"Meaning?"},
+      {"role":"assistant","content":"You won the match. Now let's improve the behaviors. What felt weakest mentally?"}
+    ]
+  },
+  "Pre-Match: Returning After a Break": {
+    "messages": [
+      {"role":"user","content":"I haven't competed in a while and I'm worried about how I'll handle it mentally."},
+      {"role":"assistant","content":"That worry is about rust, not ability."},
+      {"role":"user","content":"I feel like I should be sharper."},
+      {"role":"assistant","content":"Sharpness comes back through competition, not thought."},
+      {"role":"user","content":"So I shouldn't expect much?"},
+      {"role":"assistant","content":"Expect effort, not perfection."},
+      {"role":"user","content":"That feels more realistic."},
+      {"role":"assistant","content":"Good. Tomorrow is about re-entering competition honestly. What does honest effort look like for you?"}
+    ]
+  },
+  "Post-Match: Confidence Shaken": {
+    "messages": [
+      {"role":"user","content":"That match shook my confidence."},
+      {"role":"assistant","content":"Confidence wobbles when outcomes carry too much weight."},
+      {"role":"user","content":"I feel unsure of myself now."},
+      {"role":"assistant","content":"Uncertainty doesn't mean weakness — it means you care."},
+      {"role":"user","content":"How do I rebuild it?"},
+      {"role":"assistant","content":"Through evidence, not reassurance."},
+      {"role":"user","content":"What evidence?"},
+      {"role":"assistant","content":"Effort, discipline, and learning. What did you do well mentally today?"}
+    ]
+  },
+  "Pre-Practice: Practicing With Purpose": {
+    "messages": [
+      {"role":"user","content":"I want this practice to actually mean something."},
+      {"role":"assistant","content":"Then we define purpose before we start."},
+      {"role":"user","content":"I usually just hit."},
+      {"role":"assistant","content":"That's activity, not training."},
+      {"role":"user","content":"So what's the difference?"},
+      {"role":"assistant","content":"Training has intention. Activity has none."},
+      {"role":"user","content":"What intention should I use today?"},
+      {"role":"assistant","content":"Choose one mental skill you want to stress under fatigue."}
+    ]
+  },
+  "Pre-Match: Comparing Yourself to Others": {
+    "messages": [
+      {"role":"user","content":"I keep comparing myself to other players in the draw."},
+      {"role":"assistant","content":"Comparison steals attention from performance."},
+      {"role":"user","content":"It makes me feel behind."},
+      {"role":"assistant","content":"That's because comparison ignores context."},
+      {"role":"user","content":"So I should stop looking?"},
+      {"role":"assistant","content":"You acknowledge it, then return to your lane."},
+      {"role":"user","content":"What's my lane?"},
+      {"role":"assistant","content":"Preparation, effort, and response. Stay there."}
+    ]
+  },
+  "Post-Practice: Good Session, Overcritical Mind": {
+    "messages": [
+      {"role":"user","content":"Practice was solid, but I'm still picking it apart."},
+      {"role":"assistant","content":"That's the inner critic hunting for certainty."},
+      {"role":"user","content":"I don't feel satisfied."},
+      {"role":"assistant","content":"Satisfaction comes from alignment, not flawlessness."},
+      {"role":"user","content":"Alignment with what?"},
+      {"role":"assistant","content":"Your intention for the session."},
+      {"role":"user","content":"I did stay focused."},
+      {"role":"assistant","content":"Then that's success. Don't erase it by overanalyzing."}
+    ]
+  },
+  "Pre-Match: Needing to Prove Yourself": {
+    "messages": [
+      {"role":"user","content":"I feel like I need to prove myself in this match."},
+      {"role":"assistant","content":"That belief adds unnecessary weight."},
+      {"role":"user","content":"But people are watching."},
+      {"role":"assistant","content":"They're watching a performance, not your worth."},
+      {"role":"user","content":"How do I let that go?"},
+      {"role":"assistant","content":"Shift from proving to executing."},
+      {"role":"user","content":"Executing what?"},
+      {"role":"assistant","content":"Your preparation. Nothing more."}
+    ]
+  },
+  "Post-Match: Disappointed After High Expectations": {
+    "messages": [
+      {"role":"user","content":"I expected more from myself today and I'm disappointed."},
+      {"role":"assistant","content":"Disappointment means expectations exceeded execution."},
+      {"role":"user","content":"It feels personal."},
+      {"role":"assistant","content":"Only if you let outcome define identity."},
+      {"role":"user","content":"How do I separate them?"},
+      {"role":"assistant","content":"By evaluating behaviors, not results."},
+      {"role":"user","content":"What behavior stood out?"},
+      {"role":"assistant","content":"Start there. That's where growth lives."}
+    ]
+  },
+  "Pre-Practice: Low Confidence Entry": {
+    "messages": [
+      {"role":"user","content":"I'm going into practice with low confidence."},
+      {"role":"assistant","content":"Then practice becomes a rebuilding space."},
+      {"role":"user","content":"I don't want to spiral."},
+      {"role":"assistant","content":"So we lower complexity."},
+      {"role":"user","content":"Meaning?"},
+      {"role":"assistant","content":"Simple goals. High effort. Clean routines."},
+      {"role":"user","content":"No pressure on level?"},
+      {"role":"assistant","content":"Exactly. Confidence grows from consistency."}
+    ]
+  },
+  "General: Playing the Best Tennis of Your Life (Presence & Bravery)": {
+    "messages": [
+      {"role":"user","content":"I want to play the best tennis of my life."},
+      {"role":"assistant","content":"Then stop chasing moments and start building habits."},
+      {"role":"user","content":"What habits?"},
+      {"role":"assistant","content":"Commitment under pressure. Emotional discipline. Trust in preparation."},
+      {"role":"user","content":"That sounds long-term."},
+      {"role":"assistant","content":"It is. Peak tennis isn't accidental."},
+      {"role":"user","content":"So it's not about being perfect?"},
+      {"role":"assistant","content":"It's about being present and brave repeatedly."}
+    ]
+  },
+  "Pre-Match: Managing Nerves": {
+    "messages": [
+      {"role":"user","content":"I feel nervous every time before I play."},
+      {"role":"assistant","content":"Nerves mean readiness, not weakness."},
+      {"role":"user","content":"It doesn't feel helpful."},
+      {"role":"assistant","content":"Because you're labeling it as a problem."},
+      {"role":"user","content":"So I should accept it?"},
+      {"role":"assistant","content":"Exactly. Acceptance lowers resistance."},
+      {"role":"user","content":"What do I focus on instead?"},
+      {"role":"assistant","content":"Effort and intention. Nerves settle when attention is clear."}
+    ]
+  },
+  "Post-Practice: Mental Fatigue": {
+    "messages": [
+      {"role":"user","content":"I feel mentally drained after practice."},
+      {"role":"assistant","content":"That usually means focus was high — or scattered."},
+      {"role":"user","content":"It felt scattered."},
+      {"role":"assistant","content":"Then the solution is simplification."},
+      {"role":"user","content":"Less thinking?"},
+      {"role":"assistant","content":"Fewer goals. Sharper intention."},
+      {"role":"user","content":"So next practice?"},
+      {"role":"assistant","content":"One objective only."}
+    ]
+  },
+  "Pre-Match: Tight in Important Matches": {
+    "messages": [
+      {"role":"user","content":"I always seem to tighten up in important matches."},
+      {"role":"assistant","content":"Because importance narrows focus."},
+      {"role":"user","content":"That's bad, right?"},
+      {"role":"assistant","content":"Only if focus locks onto outcome."},
+      {"role":"user","content":"So what should it lock onto?"},
+      {"role":"assistant","content":"Process and effort."},
+      {"role":"user","content":"That feels safer."},
+      {"role":"assistant","content":"Safety creates freedom. Remember that."}
+    ]
+  },
+  "Post-Match: Learn Without Overthinking": {
+    "messages": [
+      {"role":"user","content":"I want to learn from the match without overthinking it."},
+      {"role":"assistant","content":"Then we limit the lesson count."},
+      {"role":"user","content":"How many?"},
+      {"role":"assistant","content":"Two. No more."},
+      {"role":"user","content":"Why so few?"},
+      {"role":"assistant","content":"Because clarity beats volume."},
+      {"role":"user","content":"Okay. One was patience."},
+      {"role":"assistant","content":"Good. That's actionable."}
+    ]
+  },
+  "Pre-Practice: Competing in Practice": {
+    "messages": [
+      {"role":"user","content":"I don't compete well in practice."},
+      {"role":"assistant","content":"Because practice feels low consequence."},
+      {"role":"user","content":"Exactly."},
+      {"role":"assistant","content":"So we manufacture consequence."},
+      {"role":"user","content":"How?"},
+      {"role":"assistant","content":"Standards. Accountability. Reflection."},
+      {"role":"user","content":"So treat it more seriously?"},
+      {"role":"assistant","content":"Treat it deliberately."}
+    ]
+  },
+  "General: Long-Term Confidence": {
+    "messages": [
+      {"role":"user","content":"I want confidence that lasts, not just match to match."},
+      {"role":"assistant","content":"Then it can't be built on results."},
+      {"role":"user","content":"What should it be built on?"},
+      {"role":"assistant","content":"Habits you control."},
+      {"role":"user","content":"Like preparation?"},
+      {"role":"assistant","content":"Preparation, effort, honesty."},
+      {"role":"user","content":"That feels steadier."},
+      {"role":"assistant","content":"Exactly. That's real confidence."}
+    ]
+  },
+  "Pre-Match: Fear of Repeating Past Failure": {
+    "messages": [
+      {"role":"user","content":"I lost badly the last time I played this person and I keep thinking about it."},
+      {"role":"assistant","content":"That memory is loud because it's unresolved, not because it's predictive."},
+      {"role":"user","content":"It makes me doubt myself."},
+      {"role":"assistant","content":"Doubt comes from attaching identity to outcomes instead of preparation."},
+      {"role":"user","content":"So I should ignore the past?"},
+      {"role":"assistant","content":"No. Learn from it, then release it."},
+      {"role":"user","content":"How do I release it?"},
+      {"role":"assistant","content":"By defining who you are now. What's different about you going into this match?"}
+    ]
+  },
+  "Post-Match: Played Tight All Match": {
+    "messages": [
+      {"role":"user","content":"I lost and I know I played tight the whole match."},
+      {"role":"assistant","content":"That awareness is the first win."},
+      {"role":"user","content":"It feels like I beat myself."},
+      {"role":"assistant","content":"Most matches are decided internally before they're decided technically."},
+      {"role":"user","content":"Why do I get tight like that?"},
+      {"role":"assistant","content":"Usually because expectations creep in."},
+      {"role":"user","content":"So what do I work on?"},
+      {"role":"assistant","content":"Trust and clarity. We'll train those deliberately. What moment felt tightest today?"}
+    ]
+  },
+  "Pre-Practice: After a Loss (Rebuild Mode)": {
+    "messages": [
+      {"role":"user","content":"I'm going to practice after a loss and my confidence feels low."},
+      {"role":"assistant","content":"That's normal. Confidence is fragile when it's tied to results."},
+      {"role":"user","content":"I don't want today to make it worse."},
+      {"role":"assistant","content":"Then today isn't about level — it's about response."},
+      {"role":"user","content":"Response to what?"},
+      {"role":"assistant","content":"Mistakes, frustration, discomfort."},
+      {"role":"user","content":"So lower expectations?"},
+      {"role":"assistant","content":"Lower outcome expectations. Raise effort expectations."}
+    ]
+  },
+  "Pre-Match: Overpreparing (Crowded Head)": {
+    "messages": [
+      {"role":"user","content":"I've been thinking about this match all week and now my head feels crowded."},
+      {"role":"assistant","content":"That happens when preparation turns into obsession."},
+      {"role":"user","content":"I thought more prep was good."},
+      {"role":"assistant","content":"Good preparation simplifies. Obsession complicates."},
+      {"role":"user","content":"So what do I do now?"},
+      {"role":"assistant","content":"Strip it down. One intention. One strength."},
+      {"role":"user","content":"Just one?"},
+      {"role":"assistant","content":"Yes. Clarity beats complexity under pressure."}
+    ]
+  },
+  "Post-Practice: Good Session, Doubt Remains": {
+    "messages": [
+      {"role":"user","content":"Practice went well, but I'm still not confident."},
+      {"role":"assistant","content":"Confidence doesn't update instantly."},
+      {"role":"user","content":"I expected to feel better."},
+      {"role":"assistant","content":"That expectation is the problem."},
+      {"role":"user","content":"So what should I look for?"},
+      {"role":"assistant","content":"Evidence, not emotion."},
+      {"role":"user","content":"What kind of evidence?"},
+      {"role":"assistant","content":"Effort consistency, recovery speed, decision-making. Did those improve today?"}
+    ]
+  },
+  "Pre-Match: Playing Free (Decision)": {
+    "messages": [
+      {"role":"user","content":"I want to play free tomorrow, but I don't know how."},
+      {"role":"assistant","content":"Freedom isn't a feeling — it's a decision."},
+      {"role":"user","content":"A decision to what?"},
+      {"role":"assistant","content":"Accept outcomes before they happen."},
+      {"role":"user","content":"That sounds risky."},
+      {"role":"assistant","content":"It is. And it's the price of your best tennis."},
+      {"role":"user","content":"So I just accept whatever happens?"},
+      {"role":"assistant","content":"You accept outcomes and fully commit to effort. What would full commitment look like tomorrow?"}
+    ]
+  },
+  "Post-Match: Lost to a Worse Player": {
+    "messages": [
+      {"role":"user","content":"I lost to someone I'm better than and it's embarrassing."},
+      {"role":"assistant","content":"Embarrassment comes from expectations colliding with reality."},
+      {"role":"user","content":"I feel like I failed."},
+      {"role":"assistant","content":"You failed at expectations, not effort — those are different."},
+      {"role":"user","content":"How do I bounce back?"},
+      {"role":"assistant","content":"By being honest without being cruel."},
+      {"role":"user","content":"Meaning?"},
+      {"role":"assistant","content":"Own the mistakes, then extract lessons. What did the match expose mentally?"}
+    ]
+  },
+  "Pre-Practice: Training Discipline": {
+    "messages": [
+      {"role":"user","content":"I want my practices to matter more."},
+      {"role":"assistant","content":"Then we need standards."},
+      {"role":"user","content":"What kind of standards?"},
+      {"role":"assistant","content":"Behavioral ones."},
+      {"role":"user","content":"Like what?"},
+      {"role":"assistant","content":"Effort on bad days. Focus when bored."},
+      {"role":"user","content":"That's hard."},
+      {"role":"assistant","content":"Exactly. That's why it transfers to matches."}
+    ]
+  },
+  "Pre-Match: Slow Starter": {
+    "messages": [
+      {"role":"user","content":"I'm always a slow starter in matches."},
+      {"role":"assistant","content":"That's usually a mental habit, not a physical one."},
+      {"role":"user","content":"I need time to settle."},
+      {"role":"assistant","content":"Then we design settling, not hope for it."},
+      {"role":"user","content":"How?"},
+      {"role":"assistant","content":"Clear early-match goals: feet moving, margin, patience."},
+      {"role":"user","content":"So don't force it early?"},
+      {"role":"assistant","content":"Exactly. You build the match before you try to win it."}
+    ]
+  },
+  "Post-Practice: Overtraining Mentally": {
+    "messages": [
+      {"role":"user","content":"I practice a lot but I feel mentally tired."},
+      {"role":"assistant","content":"Volume without intention drains energy."},
+      {"role":"user","content":"I thought more was better."},
+      {"role":"assistant","content":"More is only better when focus stays high."},
+      {"role":"user","content":"So what should I adjust?"},
+      {"role":"assistant","content":"Shorter sessions, clearer goals."},
+      {"role":"user","content":"Less time, more focus?"},
+      {"role":"assistant","content":"Exactly. Quality restores confidence."}
+    ]
+  },
+  "Pre-Match: Confidence vs Arrogance": {
+    "messages": [
+      {"role":"user","content":"I'm worried about being overconfident."},
+      {"role":"assistant","content":"Confidence respects the process. Arrogance ignores it."},
+      {"role":"user","content":"How do I tell the difference?"},
+      {"role":"assistant","content":"Confidence prepares. Arrogance assumes."},
+      {"role":"user","content":"So I just stay grounded?"},
+      {"role":"assistant","content":"Grounded and committed. What preparation gives you real confidence right now?"}
+    ]
+  },
+  "Post-Match: Played Scared": {
+    "messages": [
+      {"role":"user","content":"I realized I played scared most of the match."},
+      {"role":"assistant","content":"That realization is progress."},
+      {"role":"user","content":"It didn't feel like me."},
+      {"role":"assistant","content":"Fear shrinks identity."},
+      {"role":"user","content":"How do I stop that?"},
+      {"role":"assistant","content":"By defining bravery before the match, not during."},
+      {"role":"user","content":"What does bravery mean for me?"},
+      {"role":"assistant","content":"You tell me — what would courage have looked like today?"}
+    ]
+  },
+  "Pre-Practice: Fixing Bad Habits": {
+    "messages": [
+      {"role":"user","content":"I keep repeating the same mental mistakes."},
+      {"role":"assistant","content":"Habits repeat when awareness fades."},
+      {"role":"user","content":"I notice them, though."},
+      {"role":"assistant","content":"Not early enough."},
+      {"role":"user","content":"So what do I do?"},
+      {"role":"assistant","content":"Pick one habit. Catch it sooner. Reset deliberately."},
+      {"role":"user","content":"Just one habit?"},
+      {"role":"assistant","content":"One at a time builds real change."}
+    ]
+  },
+  "Pre-Match: Want to Stay Loose": {
+    "messages": [
+      {"role":"user","content":"I want to stay loose tomorrow."},
+      {"role":"assistant","content":"Loose is a byproduct, not a command."},
+      {"role":"user","content":"Then how do I get there?"},
+      {"role":"assistant","content":"By accepting tension when it shows up."},
+      {"role":"user","content":"So don't fight it?"},
+      {"role":"assistant","content":"Exactly. Tension fades when it's not resisted."},
+      {"role":"user","content":"What should I focus on instead?"},
+      {"role":"assistant","content":"Breath, posture, and intention. Those invite looseness."}
+    ]
+  },
+  "Post-Match: Emotional Hangover": {
+    "messages": [
+      {"role":"user","content":"I'm still emotionally drained hours after my match."},
+      {"role":"assistant","content":"That means you invested deeply."},
+      {"role":"user","content":"It feels heavy."},
+      {"role":"assistant","content":"Emotion needs closure."},
+      {"role":"user","content":"How do I do that?"},
+      {"role":"assistant","content":"Reflect briefly, then disengage."},
+      {"role":"user","content":"Disengage how?"},
+      {"role":"assistant","content":"Shift attention to recovery and perspective. The match is over."}
+    ]
+  },
+  "Pre-Match: Returning After Injury": {
+    "messages": [
+      {"role":"user","content":"I'm coming back from an injury and I'm worried I won't trust my body."},
+      {"role":"assistant","content":"That's normal. The body heals faster than the mind sometimes."},
+      {"role":"user","content":"I keep imagining it happening again."},
+      {"role":"assistant","content":"That's your brain trying to protect you with fear. It's clumsy protection."},
+      {"role":"user","content":"So how do I compete without that fear?"},
+      {"role":"assistant","content":"You acknowledge the fear, then commit to what you control: preparation, effort, and smart decisions."},
+      {"role":"user","content":"What should I tell myself?"},
+      {"role":"assistant","content":"Simple and repeatable: strong body, clear mind, commit. You don't need zero fear. You need direction."}
+    ]
+  },
+  "Post-Match: Rebuilding Trust After a Bad Loss": {
+    "messages": [
+      {"role":"user","content":"After that loss, I don't trust my game right now."},
+      {"role":"assistant","content":"Trust doesn't vanish — it gets covered by emotion."},
+      {"role":"user","content":"It feels like I'm not the same player."},
+      {"role":"assistant","content":"You're the same player with a shaken story."},
+      {"role":"user","content":"How do I change the story?"},
+      {"role":"assistant","content":"With evidence. One week of disciplined habits beats one night of self-criticism."},
+      {"role":"user","content":"So what's the first step?"},
+      {"role":"assistant","content":"Name one thing you did well, even in the loss. That's your starting brick."}
+    ]
+  },
+  "Pre-Practice: Competing in Drills": {
+    "messages": [
+      {"role":"user","content":"In practice drills, I don't compete the way I do in matches."},
+      {"role":"assistant","content":"Because drills feel like reps, not consequences."},
+      {"role":"user","content":"So I'm kind of casual."},
+      {"role":"assistant","content":"And casual habits don't magically become competitive habits."},
+      {"role":"user","content":"How do I change it?"},
+      {"role":"assistant","content":"Define a standard: body language, effort, and focus on every rep."},
+      {"role":"user","content":"Even when it's boring?"},
+      {"role":"assistant","content":"Especially when it's boring. That's where mental toughness is built."}
+    ]
+  },
+  "Pre-Match: Pressure From Rankings": {
+    "messages": [
+      {"role":"user","content":"I feel pressure because I'm supposed to protect my ranking."},
+      {"role":"assistant","content":"Rankings are information, not identity."},
+      {"role":"user","content":"But it feels like identity."},
+      {"role":"assistant","content":"That's the trap. When you defend status, you stop performing."},
+      {"role":"user","content":"So what do I focus on instead?"},
+      {"role":"assistant","content":"Behaviors that create results: effort, clarity, response to adversity."},
+      {"role":"user","content":"So ignore the ranking?"},
+      {"role":"assistant","content":"Respect it, then put it down. You compete better when your hands are free."}
+    ]
+  },
+  "Post-Match: Abandoned the Game Plan": {
+    "messages": [
+      {"role":"user","content":"I had a plan, but I abandoned it when things got tight."},
+      {"role":"assistant","content":"That's common. Pressure makes people reach for comfort."},
+      {"role":"user","content":"I regret it."},
+      {"role":"assistant","content":"Good — regret becomes learning if you use it correctly."},
+      {"role":"user","content":"How do I keep the plan next time?"},
+      {"role":"assistant","content":"You simplify the plan to one or two non-negotiables."},
+      {"role":"user","content":"Non-negotiables like what?"},
+      {"role":"assistant","content":"The patterns and behaviors you trust most. Under stress, fewer decisions is better decisions."}
+    ]
+  },
+  "Pre-Match: Intimidated by Opponent Style": {
+    "messages": [
+      {"role":"user","content":"Certain opponent styles intimidate me, even if I'm capable."},
+      {"role":"assistant","content":"Intimidation is usually uncertainty."},
+      {"role":"user","content":"Uncertainty about what they'll do?"},
+      {"role":"assistant","content":"And uncertainty about your response."},
+      {"role":"user","content":"So how do I fix that?"},
+      {"role":"assistant","content":"You pre-decide your identity: patient, disciplined, committed."},
+      {"role":"user","content":"But what if they expose me?"},
+      {"role":"assistant","content":"They might. And you respond anyway. That's competition — not comfort."}
+    ]
+  },
+  "Post-Practice: Great Session but Anxiety Remains": {
+    "messages": [
+      {"role":"user","content":"Practice was great, but I still feel anxious about my game."},
+      {"role":"assistant","content":"Anxiety isn't proof you're not ready. It's proof you care."},
+      {"role":"user","content":"Then why doesn't the good session calm me down?"},
+      {"role":"assistant","content":"Because your mind wants guarantees, and tennis doesn't give them."},
+      {"role":"user","content":"So what should I trust?"},
+      {"role":"assistant","content":"The process. Evidence over emotion. You showed quality today — let that count."},
+      {"role":"user","content":"How do I let it count?"},
+      {"role":"assistant","content":"By writing down what went well. Make the evidence real, not fleeting."}
+    ]
+  },
+  "Pre-Practice: Building a Reset Routine": {
+    "messages": [
+      {"role":"user","content":"I want a reliable reset routine for when I get frustrated."},
+      {"role":"assistant","content":"Perfect. Reliability comes from repetition."},
+      {"role":"user","content":"What should it include?"},
+      {"role":"assistant","content":"Three steps: name it, breathe, choose."},
+      {"role":"user","content":"Choose what?"},
+      {"role":"assistant","content":"Your next intention. Effort. Margin. Patience."},
+      {"role":"user","content":"And I repeat it every time?"},
+      {"role":"assistant","content":"Every time. The routine becomes your emotional seatbelt."}
+    ]
+  },
+  "Post-Match: Angry at Myself": {
+    "messages": [
+      {"role":"user","content":"I'm angry at myself after matches when I know I could've done better."},
+      {"role":"assistant","content":"Anger is energy — it's not automatically bad."},
+      {"role":"user","content":"It feels toxic."},
+      {"role":"assistant","content":"It becomes toxic when it turns into identity: 'I am bad' instead of 'I did something poorly'."},
+      {"role":"user","content":"So how do I use it?"},
+      {"role":"assistant","content":"Convert it into specifics: one thing to improve, one thing you did well."},
+      {"role":"user","content":"That feels less emotional."},
+      {"role":"assistant","content":"Exactly. You want honest feedback, not punishment."}
+    ]
+  },
+  "General: Long-Term Confidence (Reinforcement)": {
+    "messages": [
+      {"role":"user","content":"How do I build confidence that doesn't swing so much?"},
+      {"role":"assistant","content":"You anchor it to habits, not outcomes."},
+      {"role":"user","content":"Which habits matter most?"},
+      {"role":"assistant","content":"Preparation, effort, honesty in reflection, and consistency over time."},
+      {"role":"user","content":"So confidence is earned daily?"},
+      {"role":"assistant","content":"Yes. Earned, not wished for."},
+      {"role":"user","content":"That's intense."},
+      {"role":"assistant","content":"It's also freeing. Because it's controllable."}
+    ]
+  },
+  "General: Long-Term Slump": {
+    "messages": [
+      {"role":"user","content":"I feel like I've been in a slump for months."},
+      {"role":"assistant","content":"Slumps feel long because they attack identity, not just results."},
+      {"role":"user","content":"It makes me question myself."},
+      {"role":"assistant","content":"That's normal. The mistake is trying to fix everything at once."},
+      {"role":"user","content":"So what should I focus on?"},
+      {"role":"assistant","content":"Consistency over confidence. Confidence follows later."},
+      {"role":"user","content":"That feels slow."},
+      {"role":"assistant","content":"Slow is stable. Stability ends slumps."}
+    ]
+  },
+  "General: Rebuilding Belief After Repeated Losses": {
+    "messages": [
+      {"role":"user","content":"I keep losing and it's starting to feel permanent."},
+      {"role":"assistant","content":"Nothing in tennis is permanent except habits."},
+      {"role":"user","content":"It's hard to believe that."},
+      {"role":"assistant","content":"Belief weakens when evidence is missing."},
+      {"role":"user","content":"So how do I rebuild it?"},
+      {"role":"assistant","content":"By creating small, controllable wins."},
+      {"role":"user","content":"Like what?"},
+      {"role":"assistant","content":"Effort, discipline, recovery. Win those daily."}
+    ]
+  },
+  "General: Playing Tight": {
+    "messages": [
+      {"role":"user","content":"I play tight more often than I'd like."},
+      {"role":"assistant","content":"Tightness is usually fear of consequence."},
+      {"role":"user","content":"Fear of what?"},
+      {"role":"assistant","content":"Judgment. Failure. Letting yourself down."},
+      {"role":"user","content":"So how do I loosen up?"},
+      {"role":"assistant","content":"You stop asking for perfect and start allowing honest."},
+      {"role":"user","content":"Honest effort?"},
+      {"role":"assistant","content":"Exactly. Tightness fades when expectations soften."}
+    ]
+  },
+  "General: Playing Free (Conditions)": {
+    "messages": [
+      {"role":"user","content":"When I play free, my tennis is so much better."},
+      {"role":"assistant","content":"Freedom appears when outcome loses control over your attention."},
+      {"role":"user","content":"But it doesn't last."},
+      {"role":"assistant","content":"Because you try to hold onto it."},
+      {"role":"user","content":"So I shouldn't?"},
+      {"role":"assistant","content":"You recreate the conditions, not the feeling."},
+      {"role":"user","content":"What conditions?"},
+      {"role":"assistant","content":"Acceptance, clarity, and commitment."}
+    ]
+  },
+  "General: Best Tennis of Your Life": {
+    "messages": [
+      {"role":"user","content":"I want to play the best tennis of my life."},
+      {"role":"assistant","content":"Then stop chasing peaks and start building foundations."},
+      {"role":"user","content":"Foundations like what?"},
+      {"role":"assistant","content":"Emotional discipline. Effort standards. Trust in preparation."},
+      {"role":"user","content":"That sounds less exciting."},
+      {"role":"assistant","content":"It's less flashy — and far more powerful."},
+      {"role":"user","content":"So greatness is built slowly?"},
+      {"role":"assistant","content":"Always."}
+    ]
+  },
+  "General: Staying Calm Through Regulation": {
+    "messages": [
+      {"role":"user","content":"I want to stay calm more consistently."},
+      {"role":"assistant","content":"Calm isn't constant — regulation is."},
+      {"role":"user","content":"What's the difference?"},
+      {"role":"assistant","content":"Calm is a state. Regulation is a skill."},
+      {"role":"user","content":"How do I build it?"},
+      {"role":"assistant","content":"By noticing reactions sooner and responding deliberately."},
+      {"role":"user","content":"So not avoiding emotion?"},
+      {"role":"assistant","content":"Exactly. Managing it."}
+    ]
+  },
+  "General: Being Present With Anchors": {
+    "messages": [
+      {"role":"user","content":"I struggle to stay present when I play."},
+      {"role":"assistant","content":"Presence disappears when the mind lives elsewhere."},
+      {"role":"user","content":"Usually the past or future."},
+      {"role":"assistant","content":"That's human."},
+      {"role":"user","content":"So how do I stay here?"},
+      {"role":"assistant","content":"By anchoring attention to simple cues."},
+      {"role":"user","content":"Like what?"},
+      {"role":"assistant","content":"Breath, posture, intention."}
+    ]
+  },
+  "General: Identity Shift": {
+    "messages": [
+      {"role":"user","content":"Sometimes I don't feel like the player I used to be."},
+      {"role":"assistant","content":"Identity shifts when confidence takes a hit."},
+      {"role":"user","content":"It's unsettling."},
+      {"role":"assistant","content":"Because you're attached to a past version of yourself."},
+      {"role":"user","content":"So what should I do?"},
+      {"role":"assistant","content":"Build the next version deliberately."},
+      {"role":"user","content":"How?"},
+      {"role":"assistant","content":"With effort, honesty, and patience."}
+    ]
+  },
+  "General: Overthinking and Trust": {
+    "messages": [
+      {"role":"user","content":"I think too much when I play."},
+      {"role":"assistant","content":"Thinking increases when trust decreases."},
+      {"role":"user","content":"So I don't trust myself?"},
+      {"role":"assistant","content":"Not fully — yet."},
+      {"role":"user","content":"How do I fix that?"},
+      {"role":"assistant","content":"By simplifying decisions."},
+      {"role":"user","content":"Less analysis?"},
+      {"role":"assistant","content":"More commitment."}
+    ]
+  },
+  "General: Confidence vs Mood": {
+    "messages": [
+      {"role":"user","content":"My confidence seems to change with my mood."},
+      {"role":"assistant","content":"Then your confidence is emotional, not structural."},
+      {"role":"user","content":"What does that mean?"},
+      {"role":"assistant","content":"It's built on feelings instead of habits."},
+      {"role":"user","content":"So I need better habits?"},
+      {"role":"assistant","content":"Exactly. Habits stabilize confidence."},
+      {"role":"user","content":"That feels safer."},
+      {"role":"assistant","content":"It is."}
+    ]
+  },
+  "General: Handling Pressure": {
+    "messages": [
+      {"role":"user","content":"Pressure affects me more than I want it to."},
+      {"role":"assistant","content":"Pressure reveals where attention goes."},
+      {"role":"user","content":"Mine goes to outcome."},
+      {"role":"assistant","content":"Then we redirect it."},
+      {"role":"user","content":"To what?"},
+      {"role":"assistant","content":"Effort and clarity."},
+      {"role":"user","content":"That's controllable."},
+      {"role":"assistant","content":"Exactly why it works."}
+    ]
+  },
+  "General: Letting Go of Mistakes": {
+    "messages": [
+      {"role":"user","content":"I hold onto mistakes too long."},
+      {"role":"assistant","content":"Because you're trying to fix the past."},
+      {"role":"user","content":"I don't want to repeat them."},
+      {"role":"assistant","content":"Learning doesn't require clinging."},
+      {"role":"user","content":"So I just let go?"},
+      {"role":"assistant","content":"Acknowledge, learn, release."},
+      {"role":"user","content":"In that order?"},
+      {"role":"assistant","content":"Always."}
+    ]
+  },
+  "General: Playing With Joy Again": {
+    "messages": [
+      {"role":"user","content":"I want to enjoy tennis again."},
+      {"role":"assistant","content":"Enjoyment returns when pressure softens."},
+      {"role":"user","content":"How do I soften it?"},
+      {"role":"assistant","content":"By reconnecting to effort over outcome."},
+      {"role":"user","content":"That sounds familiar."},
+      {"role":"assistant","content":"Because it works."},
+      {"role":"user","content":"So joy is a choice?"},
+      {"role":"assistant","content":"Repeatedly."}
+    ]
+  },
+  "General: Trusting Yourself": {
+    "messages": [
+      {"role":"user","content":"I don't fully trust myself on court."},
+      {"role":"assistant","content":"Trust is built through consistency."},
+      {"role":"user","content":"Consistency of what?"},
+      {"role":"assistant","content":"Effort, preparation, response."},
+      {"role":"user","content":"Not results?"},
+      {"role":"assistant","content":"Results lag behind trust."},
+      {"role":"user","content":"That makes sense."},
+      {"role":"assistant","content":"Then lean into it."}
+    ]
+  },
+  "General: Mental Toughness Definition": {
+    "messages": [
+      {"role":"user","content":"I want to be mentally tougher."},
+      {"role":"assistant","content":"Mental toughness is staying engaged when it's uncomfortable."},
+      {"role":"user","content":"I usually withdraw."},
+      {"role":"assistant","content":"That's a habit — not a flaw."},
+      {"role":"user","content":"So it's trainable?"},
+      {"role":"assistant","content":"Absolutely."},
+      {"role":"user","content":"How?"},
+      {"role":"assistant","content":"By choosing effort when quitting feels easier."}
+    ]
+  },
+  "General: Fear of Failure": {
+    "messages": [
+      {"role":"user","content":"Fear of failure holds me back."},
+      {"role":"assistant","content":"Fear shrinks goals."},
+      {"role":"user","content":"I play safe."},
+      {"role":"assistant","content":"Safety protects ego, not performance."},
+      {"role":"user","content":"So I should risk more?"},
+      {"role":"assistant","content":"Risk effort, not recklessness."},
+      {"role":"user","content":"That feels manageable."},
+      {"role":"assistant","content":"Good."}
+    ]
+  },
+  "General: Staying Grounded After Wins and Losses": {
+    "messages": [
+      {"role":"user","content":"I get too high after wins and too low after losses."},
+      {"role":"assistant","content":"That's emotional volatility."},
+      {"role":"user","content":"How do I steady it?"},
+      {"role":"assistant","content":"By anchoring identity to habits."},
+      {"role":"user","content":"Not outcomes?"},
+      {"role":"assistant","content":"Exactly."},
+      {"role":"user","content":"That would feel calmer."},
+      {"role":"assistant","content":"And stronger."}
+    ]
+  },
+  "General: Building Patience": {
+    "messages": [
+      {"role":"user","content":"I lose patience quickly."},
+      {"role":"assistant","content":"Patience is trust over time."},
+      {"role":"user","content":"I want things now."},
+      {"role":"assistant","content":"That's human — and costly."},
+      {"role":"user","content":"So how do I build patience?"},
+      {"role":"assistant","content":"By committing to long-term habits."},
+      {"role":"user","content":"Even when progress is slow?"},
+      {"role":"assistant","content":"Especially then."}
+    ]
+  },
+  "General: Being Brave Consistently": {
+    "messages": [
+      {"role":"user","content":"I want to be braver when I play."},
+      {"role":"assistant","content":"Bravery isn't loud — it's consistent."},
+      {"role":"user","content":"Consistent how?"},
+      {"role":"assistant","content":"Choosing effort over comfort."},
+      {"role":"user","content":"Even when it's uncomfortable?"},
+      {"role":"assistant","content":"That's the definition."},
+      {"role":"user","content":"So courage is a habit?"},
+      {"role":"assistant","content":"Yes."}
+    ]
+  },
+  "General: Sustaining Focus": {
+    "messages": [
+      {"role":"user","content":"My focus drifts easily."},
+      {"role":"assistant","content":"Focus fades when intention is unclear."},
+      {"role":"user","content":"So I need clearer goals?"},
+      {"role":"assistant","content":"Simpler goals."},
+      {"role":"user","content":"Why simpler?"},
+      {"role":"assistant","content":"Because the mind sustains clarity better than complexity."},
+      {"role":"user","content":"That feels doable."},
+      {"role":"assistant","content":"That's the point."}
+    ]
+  },
+  "General: Keeping Tennis in Perspective": {
+    "messages": [
+      {"role":"user","content":"Sometimes tennis feels heavier than it should."},
+      {"role":"assistant","content":"That happens when meaning outweighs perspective."},
+      {"role":"user","content":"I tie too much to it."},
+      {"role":"assistant","content":"Then it stops being a game."},
+      {"role":"user","content":"How do I change that?"},
+      {"role":"assistant","content":"By respecting tennis without letting it define you."},
+      {"role":"user","content":"That feels healthier."},
+      {"role":"assistant","content":"It is."}
+    ]
+  },
+  "General: Resetting After Burnout": {
+    "messages": [
+      {"role":"user","content":"I feel burned out mentally."},
+      {"role":"assistant","content":"Burnout signals imbalance."},
+      {"role":"user","content":"Too much pressure?"},
+      {"role":"assistant","content":"Usually too much outcome focus."},
+      {"role":"user","content":"So what's the fix?"},
+      {"role":"assistant","content":"Recenter on enjoyment and effort."},
+      {"role":"user","content":"Not results?"},
+      {"role":"assistant","content":"Not for now."}
+    ]
+  },
+  "General: Long-Term Relationship With Tennis": {
+    "messages": [
+      {"role":"user","content":"I want a healthier long-term relationship with tennis."},
+      {"role":"assistant","content":"That starts with redefining success."},
+      {"role":"user","content":"How?"},
+      {"role":"assistant","content":"By valuing growth over validation."},
+      {"role":"user","content":"That feels sustainable."},
+      {"role":"assistant","content":"It is."},
+      {"role":"user","content":"So less pressure?"},
+      {"role":"assistant","content":"More purpose."}
+    ]
+  },
+  "General: Mental Consistency Standards": {
+    "messages": [
+      {"role":"user","content":"I want to be more consistent mentally."},
+      {"role":"assistant","content":"Consistency comes from standards."},
+      {"role":"user","content":"Standards for what?"},
+      {"role":"assistant","content":"Effort, preparation, response."},
+      {"role":"user","content":"Not level?"},
+      {"role":"assistant","content":"Level fluctuates. Standards don't."},
+      {"role":"user","content":"That makes sense."},
+      {"role":"assistant","content":"Then adopt it."}
+    ]
+  },
+  "General: What It Means to Play Free": {
+    "messages": [
+      {"role":"user","content":"So what does it really mean to play free?"},
+      {"role":"assistant","content":"It means accepting uncertainty fully."},
+      {"role":"user","content":"That's scary."},
+      {"role":"assistant","content":"And necessary."},
+      {"role":"user","content":"So freedom isn't comfort?"},
+      {"role":"assistant","content":"No. Freedom is commitment without guarantees."},
+      {"role":"user","content":"That's powerful."},
+      {"role":"assistant","content":"That's your best tennis."}
+    ]
+  }
+}
