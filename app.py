@@ -61,7 +61,6 @@ def get_bot_response(question, session_id):
         # 2. Find the top 5 matching chunks from The Inner Game of Tennis
         results = collection.query(query_embeddings=[q_vector], n_results=5)
         context = "\n\n---\n\n".join(results['documents'][0])
-        print(f"[DEBUG] RAG retrieved {len(results['documents'][0])} chunks for: {question[:50]}")
     except Exception as e:
         print(f"[ERROR] RAG failed: {e}")
         context = ""
@@ -83,16 +82,12 @@ def get_bot_response(question, session_id):
     # 5. Get response from fine-tuned model
     tokens = 400 if not conv['self_concepts_explained'] else 300
     try:
-        print(f"[DEBUG] Sending to model with {len(messages)} messages, system prompt length: {len(system_content)}")
-        print(f"[DEBUG] First 500 chars of system: {system_content[:500]}")
-        print(f"[DEBUG] User message: {question}")
         response = client.chat.completions.create(
             model="meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
             messages=messages,
             max_tokens=tokens
         )
         assistant_message = response.choices[0].message.content
-        print(f"[DEBUG] Model response: {assistant_message[:200]}")
     except Exception as e:
         print(f"[ERROR] Model call failed: {e}")
         assistant_message = "I'm sorry, I'm having trouble right now. Please try again."
