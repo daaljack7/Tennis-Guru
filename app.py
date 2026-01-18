@@ -46,16 +46,21 @@ def get_bot_response(question, session_id):
 
     conv = conversations[session_id]
 
-    # 1. Turn the question into a vector
-    q_res = client.embeddings.create(
-        model="togethercomputer/m2-bert-80M-32k-retrieval",
-        input=question
-    )
-    q_vector = q_res.data[0].embedding
+    try:
+        # 1. Turn the question into a vector
+        q_res = client.embeddings.create(
+            model="togethercomputer/m2-bert-80M-32k-retrieval",
+            input=question
+        )
+        q_vector = q_res.data[0].embedding
 
-    # 2. Find the top 5 matching chunks from The Inner Game of Tennis
-    results = collection.query(query_embeddings=[q_vector], n_results=5)
-    context = "\n\n---\n\n".join(results['documents'][0])
+        # 2. Find the top 5 matching chunks from The Inner Game of Tennis
+        results = collection.query(query_embeddings=[q_vector], n_results=5)
+        context = "\n\n---\n\n".join(results['documents'][0])
+        print(f"[DEBUG] RAG retrieved {len(results['documents'][0])} chunks for: {question[:50]}")
+    except Exception as e:
+        print(f"[ERROR] RAG failed: {e}")
+        context = ""
 
     # 3. Add user message to history
     conv['history'].append({"role": "user", "content": question})
@@ -73,13 +78,18 @@ def get_bot_response(question, session_id):
 
     # 5. Get response from fine-tuned model
     tokens = 400 if not conv['self_concepts_explained'] else 300
-    response = client.chat.completions.create(
-        model="daaljack7_5be9/Meta-Llama-3.1-8B-Instruct-Reference-tennis-coach-aa641c3d",
-        messages=messages,
-        max_tokens=tokens
-    )
-
-    assistant_message = response.choices[0].message.content
+    try:
+        print(f"[DEBUG] Sending to model with {len(messages)} messages, system prompt length: {len(system_content)}")
+        response = client.chat.completions.create(
+            model="daaljack7_5be9/Meta-Llama-3.1-8B-Instruct-Reference-tennis-coach-aa641c3d",
+            messages=messages,
+            max_tokens=tokens
+        )
+        assistant_message = response.choices[0].message.content
+        print(f"[DEBUG] Model response length: {len(assistant_message)}")
+    except Exception as e:
+        print(f"[ERROR] Model call failed: {e}")
+        assistant_message = "I'm sorry, I'm having trouble right now. Please try again."
 
     # Trim incomplete sentences if response was cut off
     if assistant_message and assistant_message[-1] not in '.!?':
