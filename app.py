@@ -1,4 +1,5 @@
 import os
+import sys
 import chromadb
 from dotenv import load_dotenv
 from together import Together
@@ -6,6 +7,9 @@ from flask import Flask, request, jsonify, render_template, session
 from flask_cors import CORS
 
 load_dotenv()
+
+# Force unbuffered output for logging
+sys.stdout = sys.stderr
 
 app = Flask(__name__)
 app.secret_key = os.urandom(24)

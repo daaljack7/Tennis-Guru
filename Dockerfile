@@ -12,5 +12,5 @@ COPY . .
 # Expose port
 EXPOSE 8080
 
-# Run the app
-CMD ["gunicorn", "--bind", "0.0.0.0:8080", "app:app"]
+# Run the app with logging enabled
+CMD ["gunicorn", "--bind", "0.0.0.0:8080", "--access-logfile", "-", "--error-logfile", "-", "--capture-output", "--timeout", "120", "app:app"]
