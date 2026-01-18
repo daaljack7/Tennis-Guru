@@ -8,8 +8,8 @@ __pycache__/
 *.py[cod]
 *.pyo
 
-# ChromaDB (too large for git, will need to regenerate)
-chroma_db/
+# ChromaDB - included for deployment
+# chroma_db/
 
 # IDE
 .vscode/
