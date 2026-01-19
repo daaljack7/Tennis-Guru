@@ -7,10 +7,22 @@ const userInput = document.getElementById('user-input');
 const sendBtn = document.getElementById('send-btn');
 const newChatBtn = document.getElementById('new-chat-btn');
 
+// Guru avatar URL
+const guruAvatarUrl = '/static/FloatingGuru.png';
+
 // Add a message to the chat
 function addMessage(content, isUser) {
     const messageDiv = document.createElement('div');
     messageDiv.className = `message ${isUser ? 'user-message' : 'bot-message'}`;
+
+    // Add guru avatar for bot messages
+    if (!isUser) {
+        const avatar = document.createElement('img');
+        avatar.src = guruAvatarUrl;
+        avatar.alt = 'Guru';
+        avatar.className = 'guru-avatar';
+        messageDiv.appendChild(avatar);
+    }
 
     const contentDiv = document.createElement('div');
     contentDiv.className = 'message-content';
@@ -19,21 +31,34 @@ function addMessage(content, isUser) {
     messageDiv.appendChild(contentDiv);
     chatMessages.appendChild(messageDiv);
 
-    // Scroll to bottom
-    chatMessages.scrollTop = chatMessages.scrollHeight;
+    // Scroll to show the beginning of the new message
+    if (isUser) {
+        // For user messages, scroll to bottom
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+    } else {
+        // For bot messages, scroll to show the top of the message
+        messageDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
 }
 
 // Show typing indicator
 function showTyping() {
     const typingDiv = document.createElement('div');
-    typingDiv.className = 'message bot-message';
+    typingDiv.className = 'typing-indicator';
     typingDiv.id = 'typing-indicator';
 
-    const indicatorDiv = document.createElement('div');
-    indicatorDiv.className = 'message-content typing-indicator';
-    indicatorDiv.innerHTML = '<span></span><span></span><span></span>';
+    // Add guru avatar
+    const avatar = document.createElement('img');
+    avatar.src = guruAvatarUrl;
+    avatar.alt = 'Guru';
+    avatar.className = 'guru-avatar';
+    typingDiv.appendChild(avatar);
 
-    typingDiv.appendChild(indicatorDiv);
+    const dotsDiv = document.createElement('div');
+    dotsDiv.className = 'typing-dots';
+    dotsDiv.innerHTML = '<span></span><span></span><span></span>';
+
+    typingDiv.appendChild(dotsDiv);
     chatMessages.appendChild(typingDiv);
     chatMessages.scrollTop = chatMessages.scrollHeight;
 }
@@ -119,9 +144,10 @@ newChatBtn.addEventListener('click', async () => {
     // Generate new session ID
     sessionId = 'session_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
 
-    // Clear chat messages except the greeting
+    // Clear chat messages except the greeting (with guru avatar)
     chatMessages.innerHTML = `
         <div class="message bot-message">
+            <img src="${guruAvatarUrl}" alt="Guru" class="guru-avatar">
             <div class="message-content">
                 Greetings! I am your Tennis Guru. I specialize in helping you improve your mental game on the court. How can I help you today?
             </div>

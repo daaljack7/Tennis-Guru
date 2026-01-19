@@ -3,19 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tennis Mental Coach</title>
+    <title>Tennis Guru</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <div class="chat-container">
         <div class="chat-header">
-            <h1>Tennis Mental Coach</h1>
-            <p>Your personal mental performance coach</p>
             <button id="new-chat-btn" class="new-chat-btn">New Chat</button>
+            <div class="header-content">
+                <img src="{{ url_for('static', filename='FloatingGuru.png') }}" alt="Tennis Guru" class="header-guru">
+                <div class="header-text">
+                    <h1>Tennis Guru</h1>
+                    <p>Your personal mental performance Tennis Guru.</p>
+                </div>
+            </div>
         </div>
 
         <div class="chat-messages" id="chat-messages">
             <div class="message bot-message">
+                <img src="{{ url_for('static', filename='FloatingGuru.png') }}" alt="Guru" class="guru-avatar">
                 <div class="message-content">
                     Greetings! I am your Tennis Guru. I specialize in helping you improve your mental game on the court. How can I help you today?
                 </div>
@@ -27,7 +33,7 @@
                 <input
                     type="text"
                     id="user-input"
-                    placeholder="Type your message..."
+                    placeholder="Ask the Guru..."
                     autocomplete="off"
                     required
                 >
@@ -37,6 +43,9 @@
                     </svg>
                 </button>
             </form>
+            <div class="book-credit">
+                Inspired by <em>The Inner Game of Tennis</em> by W. Timothy Gallwey
+            </div>
         </div>
     </div>
 
